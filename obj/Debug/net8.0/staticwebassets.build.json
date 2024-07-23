@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XT0antGB3ccMfWXop0ORemWmkX2BadmAYXI31SaWFr4=",
+  "Hash": "4+5NdYcyFYI3pWXC11G8lYVMnmF3llEBR4HKvjvcgwY=",
   "Source": "TheBazzarTest",
   "BasePath": "_content/TheBazzarTest",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TheBazzarTest\\wwwroot",
       "Source": "TheBazzarTest",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\migue\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\a136147\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TheBazzarTest.styles.css",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TheBazzarTest.styles.css",
       "SourceId": "TheBazzarTest",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "TheBazzarTest.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TheBazzarTest.styles.css"
+      "OriginalItemSpec": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TheBazzarTest.styles.css"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
       "SourceId": "TheBazzarTest",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "TheBazzarTest.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\app.css",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\favicon.png",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\fonts\\FreightNeoPro.ttf",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\fonts\\FreightNeoPro.ttf",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "fonts/FreightNeoPro.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FreightNeoPro.ttf"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\bazaarLogo_small.webp",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\bazaarLogo_small.webp",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "images/bazaarLogo_small.webp",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bazaarLogo_small.webp"
     },
     {
-      "Identity": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\profile-img.jpg",
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\profile-img.jpg",
       "SourceId": "TheBazzarTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
       "BasePath": "_content/TheBazzarTest",
       "RelativePath": "images/profile-img.jpg",
       "AssetKind": "All",

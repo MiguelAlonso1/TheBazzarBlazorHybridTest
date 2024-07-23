@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
       "PackagePath": "staticwebassets\\TheBazzarTest.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\app.css",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\fonts\\FreightNeoPro.ttf",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\fonts\\FreightNeoPro.ttf",
       "PackagePath": "staticwebassets\\fonts\\FreightNeoPro.ttf"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\bazaarLogo_small.webp",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\bazaarLogo_small.webp",
       "PackagePath": "staticwebassets\\images\\bazaarLogo_small.webp"
     },
     {
-      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\profile-img.jpg",
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\profile-img.jpg",
       "PackagePath": "staticwebassets\\images\\profile-img.jpg"
     },
     {

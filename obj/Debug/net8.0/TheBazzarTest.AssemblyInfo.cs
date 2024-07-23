@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheBazzarTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87c8e8e62e9fe79812527223e7416cd294a56116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+652f0ecd3c36176178a83f3e12ad99507407a622")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheBazzarTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheBazzarTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TheBazzarTest
 build_property.RootNamespace = TheBazzarTest
-build_property.ProjectDir = C:\Users\migue\source\repos\TheBazzarBlazorHybridTest\
+build_property.ProjectDir = C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\migue\source\repos\TheBazzarBlazorHybridTest
+build_property.MSBuildProjectDirectory = C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/App.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Pages/Error.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Pages/TestPage.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Pages/TestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXN0UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Routes.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Shared/CreateGameButton.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Shared/CreateGameButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcQ3JlYXRlR2FtZUJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Shared/EditGameButton.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Shared/EditGameButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcRWRpdEdhbWVCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Shared/ViewUserStatsButton.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Shared/ViewUserStatsButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcVmlld1VzZXJTdGF0c0J1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/_Imports.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Layout/MainLayout.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ni6xafmeqz
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Layout/NavMenu.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1fdm5ysz8a
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Pages/EditGame.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Pages/EditGame.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0R2FtZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-v4bhuaau8x
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Pages/GameList.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Pages/GameList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHYW1lTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ekoippt981
 
-[C:/Users/migue/source/repos/TheBazzarBlazorHybridTest/Components/Pages/ViewUserStats.razor]
+[C:/Users/a136147/OneDrive - AmerisourceBergen(ABC)/Desktop/TheBazzarMaste/Components/Pages/ViewUserStats.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaWV3VXNlclN0YXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-i3pwvmzlg6
