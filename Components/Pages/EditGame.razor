@@ -7,11 +7,11 @@
 
 @if (Id == null)
 {
-    <h3>Create Game</h3>
+    <h2 class="mb-2 text-2xl font-extrabold dark:text-amber-500">Create New User Stats</h2>
 }
 else
 {
-    <h3>Edit User Stats for @Game.Username</h3>
+    <h2 class="mb-2 text-2xl font-extrabold dark:text-amber-500">Edit User Stats for @Game.Username</h2>
 }
 <div class="w-full max-w-l p-4 bg-gray-900 border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
 
@@ -88,6 +88,7 @@ else
             </svg>
         </button>
     </EditForm>
+    
 </div>
 
 @code {
@@ -111,7 +112,11 @@ else
     {
         if (Id == null)
         {
-            await GameService.AddGame(Game);
+            var x =await GameService.AddGame(Game);
+            if (x.Id != 0)
+            {
+                
+            }
         }
         else
         {
