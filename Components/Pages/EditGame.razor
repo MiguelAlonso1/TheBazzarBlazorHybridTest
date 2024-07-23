@@ -1,0 +1,117 @@
+﻿@page "/edit-game"
+@page "/edit-game/{id:int}"
+@using TheBazzarTest.Entity
+@using TheBazzarTest.Services
+@inject IGameService GameService
+@inject NavigationManager NavigationManager
+
+@if (Id == null)
+{
+    <h3>Create Game</h3>
+}
+else
+{
+    <h3>Edit User Stats for @Game.Username</h3>
+}
+<div class="w-full max-w-l p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+
+<EditForm Model="Game" OnSubmit="HandleSubmit">
+
+    <div class="grid gap-6 mb-6 md:grid-cols-3">
+        <div>
+            <label for="user_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">User Name</label>
+            <input type="text" id="user_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Username" placeholder="@Game.Username" required/>
+        </div>
+        <div>
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Email address</label>
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Email" placeholder="@Game.Email" required/>
+            </div>
+        <div>
+            <label for="current_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Current Level</label>
+            <input type="number" id="current_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.CurrentLevel" placeholder="@Game.CurrentLevel" required/>
+        </div>
+        <div>
+            <label for="experience_points" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Experience Points</label>
+            <input type="number" id="experience_points" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePoints" placeholder="@Game.ExperiencePoints" required/>
+        </div>
+        <div>
+            <label for="experience_points_to_next_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Experience Points to Next Level </label>
+            <input type="number" id="experience_points_to_next_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePointsToNextLevel" placeholder="@Game.ExperiencePointsToNextLevel" required/>
+        </div>
+        <div>
+            <label for="total_games_played" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Total Games Played</label>
+            <input type="number" id="total_games_played" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalGamesPlayed" placeholder="@Game.TotalGamesPlayed" required/>
+        </div>
+        <div>
+            <label for="total_wins" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Total Wins</label>
+            <input type="number" id="total_wins" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalWins" placeholder="@Game.TotalWins" required/>
+        </div>
+        <div>
+            <label for="total_losses" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">TotalLosses</label>
+            <input type="number" id="total_losses" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalLosses" placeholder="@Game.TotalLosses" required/>
+        </div>
+        <div>
+            <label for="friends_count" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Friends Count</label>
+            <input type="number" id="friends_count" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.FriendsCount" placeholder="@Game.FriendsCount" required/>
+        </div>
+        <div>
+            <label for="messages_sent" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Messages Sent</label>
+            <input type="number" id="messages_sent" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesSent" placeholder="@Game.MessagesSent" required/>
+        </div>
+        <div>
+            <label for="messages_received" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Messages Received</label>
+            <input type="number" id="messages_received" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesReceived" placeholder="@Game.MessagesReceived" required/>
+        </div>
+    </div>
+    <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+        Submit
+    </button>
+
+    @if (Id != null)
+    {
+        <button @onclick="DeleteGame" type="button" class="ml-4 shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">Delete</button>
+    }
+    <button @onclick="GoBackToList" type="button" class="ml-4 shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+        Back to List
+    </button>
+</EditForm>
+</div>
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    Game Game { get; set; } = new();
+
+    void GoBackToList()
+    {
+        NavigationManager.NavigateTo("/games");
+    }
+    
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id is not null)
+        {
+            Game = await GameService.GetGameById((int)Id);
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        if (Id == null)
+        {
+            await GameService.AddGame(Game);
+        }
+        else
+        {
+            await GameService.EditGame((int)Id, Game);
+        }
+        
+    }
+
+    async Task DeleteGame()
+    {
+        if (Id is not null)
+        {
+            await GameService.DeleteGame((int)Id);
+        }
+    }
+}

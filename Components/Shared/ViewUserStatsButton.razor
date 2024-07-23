@@ -1,0 +1,13 @@
+﻿@inject NavigationManager NavigationManager
+
+<button @onclick="StatsButton" class="btn btn-primary">View User Stats</button>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    void StatsButton()
+    {
+        NavigationManager.NavigateTo($"/view-user-stats/{Id}");
+    }
+}
