@@ -81,21 +81,6 @@ else
         <strong> Messages Received:</strong> @game.MessagesReceived
     </p>
     </div>
-
-    <!--Optional: Display detailed stats in a table format using QuickGrid  -->
-    @* <QuickGrid Items="@(new List<Game> { game }.AsQueryable())" class="table table-striped"> *@
-    @*     <PropertyColumn Property="@(g => g.Username)" Title="Usernames"/> *@
-    @*     <PropertyColumn Property="@(g => g.Email)" Title="Emails"/> *@
-    @*     <PropertyColumn Property="@(g => g.CurrentLevel)" Title="Current Levels"/> *@
-    @*     <PropertyColumn Property="@(g => g.ExperiencePoints)" Title="Experience Points"/> *@
-    @*     <PropertyColumn Property="@(g => g.ExperiencePointsToNextLevel)" Title="XPs to Next Levels"/> *@
-    @*     <PropertyColumn Property="@(g => game.TotalGamesPlayed)" Title="Total Games Played"/> *@
-    @*     <PropertyColumn Property="@(g => game.TotalWins)" Title="Total Wins"/> *@
-    @*     <PropertyColumn Property="@(g => game.TotalLosses)" Title="Total Losses"/> *@
-    @*     <TemplateColumn Title="Actions"> *@
-    @*         <EditGameButton Id="@context.Id" /> *@
-    @*     </TemplateColumn> *@
-    @* </QuickGrid> *@
     }
 <button @onclick="GoBackToList" type="button"  class="mt-4 mb-4 shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
     Back to List
@@ -117,7 +102,7 @@ else
     
     void GoBackToList()
     {
-        NavigationManager.NavigateTo("/games");
+        NavigationManager.NavigateTo("/view-accounts");
     }
 
 }

@@ -4371,19 +4371,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a136147\\.nuget\\packages\\": {}
+    "C:\\Users\\migue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\TheBazzarTest.csproj",
+      "projectUniqueName": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\TheBazzarTest.csproj",
       "projectName": "TheBazzarTest",
-      "projectPath": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\TheBazzarTest.csproj",
-      "packagesPath": "C:\\Users\\a136147\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\obj\\",
+      "projectPath": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\TheBazzarTest.csproj",
+      "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a136147\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4391,7 +4391,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4444,7 +4443,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

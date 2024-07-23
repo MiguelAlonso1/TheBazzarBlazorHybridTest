@@ -1,5 +1,5 @@
 ﻿@page "/"
-@page "/games"
+@page "/view-accounts"
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using TheBazzarTest.Components.Shared
 @using TheBazzarTest.Entity
@@ -8,22 +8,20 @@
 
 <h3>Users Stats</h3>
 
-@if (games == null)
+@if (_games == null)
 {
     <span>Loading...</span>
 }
-else if (games.Count == 0)
+else if (_games.Count == 0)
 {
     <span>No user accounts found.</span>
 }
 else
 {
-    <QuickGrid Items="@(games.AsQueryable())" class="table table-striped">
+    <div class="place-content-center w-auto max-w-screen-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+
+    <QuickGrid Items="@(_games.AsQueryable())" class="table table-striped">
         <PropertyColumn Property="@(game => game.Username)" Title="Username"/>
-        @* <PropertyColumn Property="@(game => game.Email)" Title="Email" /> *@
-        @* <PropertyColumn Property="@(game => game.CurrentLevel)" Title="Current Level" /> *@
-        @* <PropertyColumn Property="@(game => game.ExperiencePoints)" Title="Experience Points" /> *@
-        @* <PropertyColumn Property="@(game => game.TotalGamesPlayed)" Title="Total Games Played" /> *@
         <TemplateColumn Title="Edit">
             <EditGameButton Id="@context.Id"/>
         </TemplateColumn>
@@ -31,14 +29,17 @@ else
             <ViewUserStatsButton Id="@context.Id"/>
         </TemplateColumn>
     </QuickGrid>
+    </div>
 }
+<div class="mt-4">
 <CreateGameButton/>
+</div>
 
 @code {
-    List<Game>? games;
+    List<Game>? _games;
 
     protected override async Task OnInitializedAsync()
     {
-        games = await GameService.GetAllGames();
+        _games = await GameService.GetAllGames();
     }
 }

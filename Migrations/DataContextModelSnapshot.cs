@@ -21,7 +21,7 @@ namespace TheBazzarTest.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TheBazzarTest.Shared.Entity.Game", b =>
+            modelBuilder.Entity("TheBazzarTest.Entity.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

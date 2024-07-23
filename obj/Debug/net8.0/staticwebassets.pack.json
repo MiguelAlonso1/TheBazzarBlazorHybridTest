@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TheBazzarTest.bundle.scp.css",
       "PackagePath": "staticwebassets\\TheBazzarTest.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\wwwroot\\app.css",
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarTest\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

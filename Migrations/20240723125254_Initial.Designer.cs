@@ -11,7 +11,7 @@ using TheBazzarTest.Data;
 namespace TheBazzarTest.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240723023415_Initial")]
+    [Migration("20240723125254_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace TheBazzarTest.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TheBazzarTest.Shared.Entity.Game", b =>
+            modelBuilder.Entity("TheBazzarTest.Entity.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
