@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\fonts\\FreightNeoPro.ttf",
+      "PackagePath": "staticwebassets\\fonts\\FreightNeoPro.ttf"
+    },
+    {
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\bazaarLogo_small.webp",
+      "PackagePath": "staticwebassets\\images\\bazaarLogo_small.webp"
+    },
+    {
+      "Id": "C:\\Users\\migue\\source\\repos\\TheBazzarBlazorHybridTest\\wwwroot\\images\\profile-img.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-img.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TheBazzarTest.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

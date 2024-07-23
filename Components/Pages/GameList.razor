@@ -18,17 +18,21 @@ else if (_games.Count == 0)
 }
 else
 {
-    <div class="place-content-center w-auto max-w-screen-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div class="md:container md:mx-auto ">
+     
+   
+    <div class="p-4 bg-gray-900 border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
 
-    <QuickGrid Items="@(_games.AsQueryable())" class="table table-striped">
-        <PropertyColumn Property="@(game => game.Username)" Title="Username"/>
-        <TemplateColumn Title="Edit">
-            <EditGameButton Id="@context.Id"/>
-        </TemplateColumn>
-        <TemplateColumn Title="View">
-            <ViewUserStatsButton Id="@context.Id"/>
-        </TemplateColumn>
-    </QuickGrid>
+        <QuickGrid Items="@(_games.AsQueryable())" class="bg-gray-600 text-amber-100 table table-striped">
+            <PropertyColumn Property="@(game => game.Username)" Title="Username"/>
+            <TemplateColumn Title="Edit">
+                <EditGameButton Id="@context.Id"/>
+            </TemplateColumn>
+            <TemplateColumn Title="View">
+                <ViewUserStatsButton Id="@context.Id"/>
+            </TemplateColumn>
+        </QuickGrid>
+    </div>
     </div>
 }
 <div class="mt-4">

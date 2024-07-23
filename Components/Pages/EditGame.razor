@@ -13,66 +13,79 @@ else
 {
     <h3>Edit User Stats for @Game.Username</h3>
 }
-<div class="w-full max-w-l p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-l p-4 bg-gray-900 border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
 
     <EditForm Model="Game" OnSubmit="HandleSubmit">
 
-        <div class="grid gap-6 mb-6 md:grid-cols-3">
+        <div class="grid gap-6 mb-6 md:grid-cols-3 ">
             <div>
-                <label for="user_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">User Name</label>
-                <input type="text" id="user_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Username" placeholder="@Game.Username" required/>
+                <label for="user_name" class="block mb-2 text-sm font-medium text-amber-100 dark:text-amber-500">User Name</label>
+                <input type="text" id="user_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Username" placeholder="@Game.Username" required/>
             </div>
             <div>
-                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Email address</label>
-                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Email" placeholder="@Game.Email" required/>
+                <label for="email" class="block mb-2 text-sm font-medium text-amber-100 dark:text-amber-500">Email address</label>
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.Email" placeholder="@Game.Email" required/>
             </div>
             <div>
-                <label for="current_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Current Level</label>
-                <input type="number" id="current_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.CurrentLevel" placeholder="@Game.CurrentLevel" required/>
+                <label for="current_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Current Level</label>
+                <input type="number" id="current_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.CurrentLevel" placeholder="@Game.CurrentLevel" required/>
             </div>
             <div>
-                <label for="experience_points" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Experience Points</label>
-                <input type="number" id="experience_points" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePoints" placeholder="@Game.ExperiencePoints" required/>
+                <label for="experience_points" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Experience Points</label>
+                <input type="number" id="experience_points" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePoints" placeholder="@Game.ExperiencePoints" required/>
             </div>
             <div>
-                <label for="experience_points_to_next_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Experience Points to Next Level </label>
-                <input type="number" id="experience_points_to_next_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePointsToNextLevel" placeholder="@Game.ExperiencePointsToNextLevel" required/>
+                <label for="experience_points_to_next_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Experience Points to Next Level </label>
+                <input type="number" id="experience_points_to_next_level" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.ExperiencePointsToNextLevel" placeholder="@Game.ExperiencePointsToNextLevel" required/>
             </div>
             <div>
-                <label for="total_games_played" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Total Games Played</label>
-                <input type="number" id="total_games_played" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalGamesPlayed" placeholder="@Game.TotalGamesPlayed" required/>
+                <label for="total_games_played" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Total Games Played</label>
+                <input type="number" id="total_games_played" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalGamesPlayed" placeholder="@Game.TotalGamesPlayed" required/>
             </div>
             <div>
-                <label for="total_wins" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Total Wins</label>
-                <input type="number" id="total_wins" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalWins" placeholder="@Game.TotalWins" required/>
+                <label for="total_wins" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Total Wins</label>
+                <input type="number" id="total_wins" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalWins" placeholder="@Game.TotalWins" required/>
             </div>
             <div>
-                <label for="total_losses" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">TotalLosses</label>
-                <input type="number" id="total_losses" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalLosses" placeholder="@Game.TotalLosses" required/>
+                <label for="total_losses" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">TotalLosses</label>
+                <input type="number" id="total_losses" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.TotalLosses" placeholder="@Game.TotalLosses" required/>
             </div>
             <div>
-                <label for="friends_count" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Friends Count</label>
-                <input type="number" id="friends_count" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.FriendsCount" placeholder="@Game.FriendsCount" required/>
+                <label for="friends_count" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Friends Count</label>
+                <input type="number" id="friends_count" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.FriendsCount" placeholder="@Game.FriendsCount" required/>
             </div>
             <div>
-                <label for="messages_sent" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Messages Sent</label>
-                <input type="number" id="messages_sent" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesSent" placeholder="@Game.MessagesSent" required/>
+                <label for="messages_sent" class="block mb-2 text-sm font-medium text-gray-900 dark:text-amber-500">Messages Sent</label>
+                <input type="number" id="messages_sent" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesSent" placeholder="@Game.MessagesSent" required/>
             </div>
             <div>
-                <label for="messages_received" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Messages Received</label>
-                <input type="number" id="messages_received" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesReceived" placeholder="@Game.MessagesReceived" required/>
+                <label for="messages_received" class="block mb-2 text-sm font-medium text-amber-500 dark:text-amber-500">Messages Received</label>
+                <input type="number" id="messages_received" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-amber-100 dark:focus:ring-blue-500 dark:focus:border-blue-500" @bind-value="Game.MessagesReceived" placeholder="@Game.MessagesReceived" required/>
             </div>
         </div>
-        <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+   
+        <button type="submit" class="px-3 py-2 text-s font-medium text-center inline-flex items-center text-gray-900 bg-amber-500 rounded-lg hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-amber-500 dark:hover:bg-amber-100 dark:focus:ring-blue-800 hover:text-amber-500">
             Submit
+            <svg class="ml-1 w-6 h-6 text-gray-900 dark:text-gray-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2M12 4v12m0-12 4 4m-4-4L8 8"/>
+            </svg>
         </button>
 
         @if (Id != null)
         {
-            <button @onclick="DeleteGame" type="button" class="ml-4 shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">Delete</button>
+            <button @onclick="DeleteGame" type="button" class="ml-2 px-3 py-2 text-s shadow bg-red-900 hover:bg-red-400  font-medium text-center inline-flex items-center text-gray-900 bg-red-700 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-600 dark:hover:bg-amber-100 dark:focus:ring-blue-800 hover:text-amber-500">
+                Delete
+                <svg class="ml-1 w-6 h-6 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm5.757-1a1 1 0 1 0 0 2h8.486a1 1 0 1 0 0-2H7.757Z" clip-rule="evenodd"/>
+                </svg>
+            </button>
         }
-        <button @onclick="GoBackToList" type="button" class="ml-4 shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+       
+        <button @onclick="GoBackToList" type="button" class="ml-2 px-3 py-2 text-s font-medium text-center inline-flex items-center text-gray-900 bg-amber-100 rounded-lg hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-amber-100 dark:hover:bg-amber-500 dark:focus:ring-blue-800 hover:text-amber-100">
             Back to List
+            <svg class="ml-1 w-6 h-6 text-gray-800 dark:text-gray-900" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/>
+            </svg>
         </button>
     </EditForm>
 </div>
