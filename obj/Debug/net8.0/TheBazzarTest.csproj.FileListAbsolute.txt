@@ -473,3 +473,6 @@ C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\obj\De
 C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\obj\Debug\net8.0\TheBazzarTest.pdb
 C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\obj\Debug\net8.0\TheBazzarTest.genruntimeconfig.cache
 C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\obj\Debug\net8.0\ref\TheBazzarTest.dll
+C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\bin\Debug\net8.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\a136147\OneDrive - AmerisourceBergen(ABC)\Desktop\TheBazzarMaste\bin\Debug\net8.0\System.ClientModel.dll

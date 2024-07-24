@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0kyFNxGWJFjrcs9F8goqR9nZOH7R/o6yQU3o69Iyg00=",
+  "Hash": "iKYToKSiQzWSCFYBC8qqUiK4vTnMjMR4hW8ugMzrbWY=",
   "Source": "TheBazzarTest",
   "BasePath": "_content/TheBazzarTest",
   "Mode": "Default",
@@ -395,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home_prereg_character.webp"
+    },
+    {
+      "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\iconLogo_64x64.webp",
+      "SourceId": "TheBazzarTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\",
+      "BasePath": "_content/TheBazzarTest",
+      "RelativePath": "images/iconLogo_64x64.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconLogo_64x64.webp"
     },
     {
       "Identity": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\profile-img.jpg",

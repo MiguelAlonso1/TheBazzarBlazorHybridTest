@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzj7j0CkrtkSfWUCqwgxNcQAAAAACAAAAAAADZgAAwAAAABAAAAD551pLkjTwTgweabJZPG17AAAAAASAAACgAAAAEAAAALiZG6nCD2mNSYcSRNixN9CAAAAAFcj5TAGUSBig3ZEhv0hCShfMGOHqn0ukalnR9UdFHTmzCsjo6blD+k3C5HndhKFUvLzhF9YiyMHE/WA7aAJNBHrpXyXdXaFl3DtHISiLYOWem3C4XS1sifqIxdJfjxrmNPl08bk3XSbDVlI5Z2o2N+zJdFl2o3m0/hRW3LF11jEUAAAAD8Uw5jcZ54qcmRKudRKHesGJwX8=</EncryptedPassword>
+    <History>False|2024-07-24T03:39:12.4538288Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=thebazzartestmigueldbserver.database.windows.net,1433%3bInitial Catalog=TheBazzarTestMiguel_db%3bUser ID=amakakerun%3bPassword=Lcm5cc17</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TheBazzarTest.Data.DataContext">
+      <Value>Data Source=thebazzartestmigueldbserver.database.windows.net,1433%3bInitial Catalog=TheBazzarTestMiguel_db%3bUser ID=amakakerun%3bPassword=Lcm5cc17</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

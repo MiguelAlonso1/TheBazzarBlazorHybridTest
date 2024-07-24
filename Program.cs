@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using TheBazzarTest.Components;
 using TheBazzarTest.Data;
 using TheBazzarTest.Services;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
