@@ -29,8 +29,56 @@
       "PackagePath": "staticwebassets\\images\\bazaarLogo_small.webp"
     },
     {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\buildingBlue.webp",
+      "PackagePath": "staticwebassets\\images\\buildingBlue.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_dooleyPedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_dooleyPedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_julesPedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_julesPedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_makPedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_makPedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_pygmalienPedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_pygmalienPedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_stellePedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_stellePedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\hero_vanPedestal.webp",
+      "PackagePath": "staticwebassets\\images\\hero_vanPedestal.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\home_founder_character.webp",
+      "PackagePath": "staticwebassets\\images\\home_founder_character.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\home_founder_tier1.webp",
+      "PackagePath": "staticwebassets\\images\\home_founder_tier1.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\home_prereg_character.webp",
+      "PackagePath": "staticwebassets\\images\\home_prereg_character.webp"
+    },
+    {
       "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\profile-img.jpg",
       "PackagePath": "staticwebassets\\images\\profile-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\robot_balloon.webp",
+      "PackagePath": "staticwebassets\\images\\robot_balloon.webp"
+    },
+    {
+      "Id": "C:\\Users\\a136147\\OneDrive - AmerisourceBergen(ABC)\\Desktop\\TheBazzarMaste\\wwwroot\\images\\robot_tall.webp",
+      "PackagePath": "staticwebassets\\images\\robot_tall.webp"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TheBazzarTest.Microsoft.AspNetCore.StaticWebAssets.props",

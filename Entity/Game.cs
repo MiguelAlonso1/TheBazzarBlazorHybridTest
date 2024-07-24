@@ -27,5 +27,5 @@ public class Game
     
     // Calculated properties (not mapped to database)
     [NotMapped] 
-    public double WinLossRatio => TotalGamesPlayed > 0 ? (double)TotalWins / TotalGamesPlayed : 0;
+    public double WinLossRatio => (double)TotalWins / TotalLosses;
 }
